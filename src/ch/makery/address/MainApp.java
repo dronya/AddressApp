@@ -34,7 +34,7 @@ public class MainApp extends Application {
 			loader.setLocation(MainApp.class.getResource("view/RootLayout.fxml"));
 			rootLayout = (BorderPane) loader.load();
 
-			// Отображаем сцену, содержащую корневой макет.
+			// Отображаем сцену, содержащую корневой макет
 			Scene scene = new Scene(rootLayout);
 			primaryStage.setScene(scene);
 			primaryStage.show();
